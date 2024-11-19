@@ -4,7 +4,7 @@ import random
 
 def main():
     try:
-        #comment
+
         pygame.init()
         # You can draw the mole with this snippet:
         # screen.blit(mole_image, mole_image.get_rect(topleft=(x,y)))
