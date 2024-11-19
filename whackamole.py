@@ -41,6 +41,12 @@ def main():
                     elif x1 == x2 and y1 == y2:
                         x2 = random.randrange(1, 21)
                         y2 = random.randrange(1, 17)
+                        while True:
+                            if x1 == x2 or y1 == y2:
+                                x2 = random.randrange(1, 21)
+                                y2 = random.randrange(1, 17)
+                            else:
+                                break
                     else:
                         break
 
